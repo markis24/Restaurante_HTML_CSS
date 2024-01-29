@@ -8,7 +8,6 @@
 main {
   margin-left: 15%;
   margin-right: 15%;
-
 }
 ul {
   list-style-type: none;
@@ -32,21 +31,65 @@ li a:hover {
   background-color: #111;
 }
 #main-header {
-    width:100%;
-    position: fixed;
-    left: 0;
-    top: 0;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
 }
-
+.img-main-foto {
+  width: 90%;
+}
 /* Sobre nosotros */
 
 .img-mesa {
   float: left;
   margin-right: 5%;
- /* filter: brightness();*/
-  
+  /* filter: brightness();*/
 }
 .img-mesa-exterior {
   float: right;
   margin-left: 5%;
+}
+
+/* Carta */
+
+.boton-menu {
+  display: grid;
+}
+
+/* Galeria de fotos */
+.fotos-comida {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.imagenes-oscuras {
+  margin-bottom: 2%;
+  /* Filtro para la oscuridad*/
+  filter: brightness(40%);
+}
+.imagenes-claras {
+  margin-bottom: 2%;
+}
+/* Footer */
+
+footer {
+  background-color: #333;
+  color: #fff;
+}
+.restaurant-name {
+  text-align: end;
+  margin-right: 2%;
+}
+
+.contact-email {
+  text-align: start;
+}
+
+.contact-phone {
+  text-align: start;
+}
+i {
+  margin-left: 2%;
+  margin-right: 1%;
 }
